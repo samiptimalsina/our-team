@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<script
+ src="https://code.jquery.com/jquery-3.4.1.min.js"
+ integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
+ crossorigin="anonymous"></script> 
+
+ 
+
+
+	<style type="text/css">
+		body{
+			background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(key.jpg);
+			background-size: cover;
+		}
+		input{
+			width: 700px;
+			padding-left: 20px;
+			border:2px solid green;
+		border-radius: 35px;
+			height: 30px;
+
+		}
+		button{
+			text-align: center;
+			margin: 0 auto;
+			border:none;
+			width: 100px;
+			height: 30px;
+			border-top-right-radius: 35px;
+			border-bottom-right-radius: 35px;
+			margin-left: -104px;
+			outline: none;
+			cursor: pointer;
+
+		
+
+
+		}
+
+	</style>
+
+</head>
+<body>
+	<br><br>	<br><br>	<br><br>
+	<center>
+	<label style="color:white; font-size: 17px; font-weight: bold; text-transform: uppercase;">Search movie name </label>
+	<form>
+<input type="text" name="search" id="searchText" value="">
+
+
+<button>	search</button>
+</form>
+</center>
+
+ <div class="container">
+ 	<div id="movie" class="row"></div>
+ </div>
+ <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+ <script type="text/javascript" src="movie.js"></script>
+	
+</body>
+</html>
+
+
